@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sai_cqt.sailib">
+
+    <application>
+        <activity android:name=".activity.SaiActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <service android:name=".service.SaiService" />
+    </application>
+
+</manifest>
